@@ -49,7 +49,7 @@ To ensure that your submission will not break the build, you will need to instal
 
 .. code-block:: bash
 
-    pip install flake8 nose
+    pip install flake8 pytest pytest-cov
 
 We test by implementing simple models and through traditional unit tests in the tests/ folder. The following only covers unit tests coverage. Ensure that your test coverage has not gone down. If it has and you need help, we will offer advice on how to structure tests for the contribution.
 
