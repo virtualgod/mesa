@@ -320,7 +320,7 @@ class ModularServer(tornado.web.Application):
         url = 'http://127.0.0.1:{PORT}'.format(PORT=self.port)
         print('Interface starting at {url}'.format(url=url))
         self.listen(self.port)
-        webbrowser.open(url)
+        # webbrowser.open(url)
         tornado.autoreload.start()
         if startLoop:
             tornado.ioloop.IOLoop.instance().start()
